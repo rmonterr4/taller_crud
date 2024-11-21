@@ -1,10 +1,10 @@
 import { NavLink } from "react-router-dom";
-import miLogo from "../../../assets/img/logoReact.png"
+import miLogo from "../../../assets/img/urbana.jpeg"
 
 export const Cabecera = () => {
   return (
     <>
-      <nav className="navbar navbar-expand-lg" style={{ backgroundColor: '#666666' }} data-bs-theme="dark">
+      <nav className="navbar navbar-expand-lg" style={{ backgroundColor: '#333333' }} data-bs-theme="dark">
         <div className="container-fluid">
           <NavLink className="navbar-brand" to="/">
             <img src={miLogo} alt="El logo" />
